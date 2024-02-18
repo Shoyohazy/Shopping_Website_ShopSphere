@@ -2,12 +2,12 @@ import React from "react";
 
 function Login() {
   return (
-    <div className="max-w-md mx-auto mt-[10%] bg-slate-400 rounded-md">
+    <div className=" max-w-md mx-auto mt-[10%] bg-slate-400 rounded-md">
       <form className="max-w-sm mx-auto pt-4 pb-4">
         <label className="block mb-2">
           Username:
           <input
-            className="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
+            className="w-full px-4 py-2 border text-black rounded focus:outline-none focus:border-blue-500"
             type="text"
             name="username"
           />
@@ -15,7 +15,7 @@ function Login() {
         <label className="block mb-2">
           Password:
           <input
-            className="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
+            className="w-full px-4 py-2 border rounded text-black focus:outline-none focus:border-blue-500"
             type="password"
             name="password"
           />
